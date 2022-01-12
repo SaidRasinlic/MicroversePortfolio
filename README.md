@@ -2,7 +2,7 @@
 
 > This is my mobile version of "Portfolio" project based on the Microverse student's template.
 
-![screenshot](../images/portfolio.png)
+![screenshot](./images/portfolio.png)
 
 Additional description about the project and its features.
 
