@@ -377,8 +377,8 @@ hr {
 }
 
 .arrow-list h3,
-  .framework-arr h3,
-  .skills-arr h3 {
+.framework-arr h3,
+.skills-arr h3 {
   line-height: 24px;
   right: 78px;
   left: 12px;
