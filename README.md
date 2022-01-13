@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolioRepetition/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolioRepetition/main/index.html)
 
 
 ## Getting Started
