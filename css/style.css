@@ -179,28 +179,6 @@
   color: #344563;
 }
 
-.project-button:hover {
-  color: #fff;
-  text-decoration: none;
-  padding: 12px;
-  background-color: #6070ff;
-  border-radius: 8px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.project-button:focus {
-  color: #fff;
-  text-decoration: none;
-  padding: 12px;
-  background-color: #2230d2;
-  border-radius: 8px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
 .technologies-titles {
   list-style: none;
   display: flex;
@@ -234,22 +212,22 @@
   line-height: 24px;
 }
 
-.project-button:hover {
+.project-button:focus {
   color: #fff;
   text-decoration: none;
   padding: 12px;
-  background-color: #6070ff;
+  background-color: #2230d2;
   border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
 }
 
-.project-button:focus {
+.project-button:hover {
   color: #fff;
   text-decoration: none;
   padding: 12px;
-  background-color: #2230d2;
+  background-color: #6070ff;
   border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
