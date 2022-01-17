@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- GitHub/VSCode
+- GitHub/VSCode/Linters
 
 ### Setup
 
