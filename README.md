@@ -1,4 +1,4 @@
-# "Microverse Portfolio (repetition)" project
+# "Microverse Portfolio" project
 
 > This is my mobile version of "Portfolio" project based on the Microverse student's template.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolioRepetition/main/index.html)
+[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolio/main/index.html)
 
 
 ## Getting Started
