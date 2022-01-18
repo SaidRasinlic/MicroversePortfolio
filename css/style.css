@@ -432,8 +432,9 @@ hr {
   left: 24px;
   border-radius: 86px 0 0;
   border: 1px solid #dfe1e6;
-  background-image: url("../images/contact\Contact.png");
+  background-image: url("../images/contact-form.svg");
   background-repeat: no-repeat;
   background-position: right;
-  margin-top: -113px;
+  margin-top: 350px;
+  padding-top: 200px;
 }
