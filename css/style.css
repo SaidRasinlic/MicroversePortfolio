@@ -246,7 +246,7 @@
 .about-myself {
   background-color: #fff;
   width: 375px;
-  height: 718px;
+  height: 1263px;
   border-top-right-radius: 70px;
   margin-top: 88px;
 }
@@ -421,6 +421,9 @@ hr {
   margin: 12px 24px;
 }
 
+
+/*FOOTER FOOTER  */
+
 .contact-wrapper {
   display: flex;
   justify-content: center;
@@ -435,6 +438,5 @@ hr {
   background-image: url("../images/contact-form.svg");
   background-repeat: no-repeat;
   background-position: right;
-  margin-top: 350px;
-  padding-top: 200px;
+  margin-top: -113;
 }
