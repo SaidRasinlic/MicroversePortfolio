@@ -425,7 +425,7 @@ hr {
 
 .contact-wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #6070ff;
@@ -437,11 +437,8 @@ hr {
   background-image: url("../images/contact-form.svg");
   background-repeat: no-repeat;
   background-position: right;
-  margin-top: 350px;
-  padding-top: 200px;
+  margin-top: -113;
 }
-
-
 
 .contact-title {
   color: #fff;
