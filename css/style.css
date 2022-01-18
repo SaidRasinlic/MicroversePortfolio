@@ -2,7 +2,6 @@
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
-
 }
 
 .main-content {
@@ -422,6 +421,8 @@ hr {
   margin: 12px 24px;
 }
 
+/* form section */
+
 .contact-wrapper {
   display: flex;
   justify-content: start;
@@ -440,16 +441,62 @@ hr {
   padding-top: 200px;
 }
 
-/* form section */
+
 
 .contact-title {
-  color: #FFF;
+  color: #fff;
   font-size: 40px;
   line-height: 52px;
 }
 
 .contact-paragraph {
-  color: #EBEBFF;
+  color: #ebebff;
   font-size: 20px;
   line-height: 28px;
   padding: 20px;
+}
+
+.conact-title {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 103px;
+}
+.contact-paragraph {
+  color: #ebebff;
+  padding: 12px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.form-content {
+  list-style-type: none;
+}
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  margin-top: 20px;
+}
+input::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+.form-list {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  margin-top: 20px;
+}
