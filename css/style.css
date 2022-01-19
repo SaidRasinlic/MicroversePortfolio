@@ -107,7 +107,7 @@
   width: 375px;
   background-color: #f7f7f9;
   height: auto;
-  padding: 70px 0;
+  padding-top: 70px;
 }
 
 .cards {
@@ -246,7 +246,7 @@
 .about-myself {
   background-color: #fff;
   width: 375px;
-  height: 718px;
+  height: 1263px;
   border-top-right-radius: 70px;
   margin-top: 88px;
 }
@@ -421,7 +421,7 @@ hr {
   margin: 12px 24px;
 }
 
-/* form section */
+/*FOOTER FOOTER  */
 
 .contact-wrapper {
   display: flex;
@@ -440,19 +440,6 @@ hr {
   margin-top: -113;
 }
 
-.contact-title {
-  color: #fff;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-.contact-paragraph {
-  color: #ebebff;
-  font-size: 20px;
-  line-height: 28px;
-  padding: 20px;
-}
-
 .conact-title {
   color: #fff;
   font-style: normal;
@@ -461,6 +448,7 @@ hr {
   line-height: 52px;
   margin-top: 103px;
 }
+
 .contact-paragraph {
   color: #ebebff;
   padding: 12px 24px;
@@ -470,9 +458,11 @@ hr {
   line-height: 28px;
   text-align: center;
 }
+
 .form-content {
   list-style-type: none;
 }
+
 input {
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -483,10 +473,12 @@ input {
   top: 0;
   margin-top: 20px;
 }
+
 input::placeholder {
   padding-left: 16px;
   padding-top: 15px;
 }
+
 .form-list {
   background: #fff;
   border: 1px solid #cfd8dc;
