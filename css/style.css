@@ -422,7 +422,8 @@ hr {
 }
 
 
-/*FOOTER FOOTER  */
+/*
+FOOTER FOOTER */
 
 .contact-wrap {
   display: flex;
@@ -547,5 +548,5 @@ hr {
 }
 
 .button-wrap {
-  margin-top: 22px;
+ margin-top: 22px;
 }
