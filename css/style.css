@@ -421,11 +421,10 @@ hr {
   margin: 12px 24px;
 }
 
-/*
-FOOTER FOOTER
-*/
 
-.contact-wrapper {
+/*FOOTER FOOTER  */
+
+.contact-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -442,7 +441,7 @@ FOOTER FOOTER
   margin-top: -113px;
 }
 
-.conact-title {
+.contact-title {
   color: #fff;
   font-style: normal;
   font-weight: bold;
@@ -451,7 +450,7 @@ FOOTER FOOTER
   margin-top: 103px;
 }
 
-.contact-paragraph {
+.contact-para {
   color: #ebebff;
   padding: 12px 24px;
   font-style: normal;
@@ -465,7 +464,7 @@ FOOTER FOOTER
   list-style-type: none;
 }
 
-input {
+.form-name {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -476,69 +475,77 @@ input {
   margin-top: 20px;
 }
 
-input::placeholder {
+.form-email {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  margin-top: 18px;
+}
+
+.form-name::placeholder {
   padding-left: 16px;
   padding-top: 15px;
 }
 
-.form-list {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  height: 48px;
-  width: 327px;
-  left: 0;
-  top: 0;
-  margin-top: 20px;
+.form-email::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
-.button-contact {
-  color: #6070ff;
+.form-list-textarea {
+  height: 170px;
+  border-radius: 8px;
+  width: 327px;
+  left: 0;
+  margin-top: 18px;
+  top: 0;
+}
+
+.form-list-textarea::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.contact-button {
   background-color: #fff;
   font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
   line-height: 24px;
+  color: #6070ff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
   padding: 12px 16px;
 }
 
-.button-contact:hover {
+.contact-button:hover {
   color: #fff;
   text-decoration: none;
-  padding: 12px 16px;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  padding: 12px 16px;
   background-color: #6070ff;
   border-radius: 8px;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  font-style: normal;
 }
 
-.button-contact:focus {
+.contact-button:focus {
   color: #fff;
   text-decoration: none;
   padding: 12px 16px;
-  background-color: #2230d2;
-  border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-}
-
-textarea {
-  height: 170px;
-  width: 327px;
-  left: 0;
-  top: 0;
   border-radius: 8px;
-  margin-top: 18px;
-  resize: none;
+  background-color: #2230d2;
 }
 
-.textarea::placeholder {
-  padding-left: 16px;
-  padding-top: 15px;
+.button-wrap {
+  margin-top: 22px;
 }

@@ -201,24 +201,33 @@
           </ul>
         </section>
       </section>
-
-      <footer class="contact-wrapper">
+      <footer class="contact-wrap">
         <h2 class="contact-title">Contact me</h2>
-        <p class="contact-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form action="#" method="POST">
 
+        <p class="contact-para">
+          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+        </p>
+
+        <form action="https://formspree.io/f/xayvqdqk" method="POST">
           <ul class="form-content">
-            <li> <label><input type="text" name="fullname" placeholder="Full name"
-              maxlength="30" required></label></li>
-            <li><label><input type="email" name="email" placeholder="Enter your E-Mail address" required></label></li>
-            <li><label><textarea name="message" id="msg"
-              placeholder="Write your message here" maxlength="500" required></textarea></label></li>
-
-            <li><button class="button-contact" type="submit">Get in Touch</button></li>
+            <li>
+              <label for="name"></label>
+              <input class="form-name" id="name" type="text" maxlength="30" required name="fullName" placeholder="Full name" />
+            </li>
+            <li>
+              <label for="mail"></label>
+              <input class="form-email" id="mail" type="email" required name="userEmail" placeholder="Enter your E-Mail address" />
+            </li>
+            <li>
+              <label for="message"></label>
+              <textarea class="form-list-textarea" id="message" name="userMessage" required placeholder="Write your message here" maxlength="500"></textarea>
+            </li>
+            <li class="button-wrap">
+              <button class="contact-button" type="submit">Get In Touch</button>
+            </li>
           </ul>
         </form>
       </footer>
-
     </section>
 
   </main>
