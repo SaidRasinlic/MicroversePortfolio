@@ -503,6 +503,7 @@ input::placeholder {
   border-radius: 8px;
   padding: 12px 16px;
 }
+
 .button-contact:hover {
   color: #fff;
   text-decoration: none;
@@ -515,6 +516,7 @@ input::placeholder {
   background-color: #6070ff;
   border-radius: 8px;
 }
+
 .button-contact:focus {
   color: #fff;
   text-decoration: none;
@@ -525,6 +527,7 @@ input::placeholder {
   font-weight: 500;
   line-height: 24px;
 }
+
 textarea {
   height: 170px;
   width: 327px;
@@ -534,6 +537,7 @@ textarea {
   margin-top: 18px;
   resize: none;
 }
+
 .textarea::placeholder {
   padding-left: 16px;
   padding-top: 15px;
