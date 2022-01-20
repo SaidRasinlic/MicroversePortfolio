@@ -11,17 +11,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Said's Portfolio</title>
 </head>
+<link rel="stylesheet" media="(min-width:992px)" href="css/desktop.css">
+<link rel="stylesheet" media="(max-width:992px)" href="css/style.css">
 
 <body>
   <main class="main-content">
-    <header class="main-menu">
-      <a class="logo" href="#">My Logo</a>
-      <nav>
-        <img class="menu" src="images/hamburger.svg" alt="menu">
-      </nav>
-    </header>
+
+    <nav class="main-menu">
+      <a class="logo" href="#">Said R.</a>
+      <a><img class="menu" src="images/hamburger.svg" alt="menu"></a>
+      <div class="desktop-nav">
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#About">About</a>
+        <a href="Contact">Contact</a>
+      </div>
+    </nav>
+
     <section class="home-page">
-      <h1 class="primary-message">I’m Said<br> Glad to see<br> you!</h1>
+      <h1 class="primary-message">I’m Said<br>Glad to see you!</h1>
       <p class="primary-message-description">I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
       <h3 class="social-media-connect">LET’S CONNECT</h3>
       <ul class="icon-container">
@@ -67,7 +74,34 @@
         </div>
       </section>
 
-      <section class="cards card-multi">
+      <div class="desktop-work1">
+        <section class="cct1">
+          <img class="desktop-portfolio-img" alt="Portfolio" src="images/tonic-desktop.svg">
+          <div class="card-element">
+            <div class="inner-card-element">
+              <h2 class="card-title">Tonic</h2>
+              <div class="card-section">
+                <p class="section-p">CANOPY</p>
+                <img class="dot" src="images/dot.svg" alt="dot">
+                <p class="section-p">Back End Dev</p>
+                <img class="dot" src="images/dot.svg" alt="dot">
+                <p class="section-p">2015</p>
+              </div>
+            </div>
+            <p class="card-body">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <ul class="technologies-titles">
+              <li class="techno">html</li>
+              <li class="techno">css</li>
+              <li class="techno">javascript</li>
+            </ul>
+            <a class="project-button" href="#">See Project</a>
+          </div>
+        </section>
+      </div>
+
+
+      <section class="cards card-multi ccm1">
         <img class="portfolio-img" src="images/multi-portfolio.svg" alt="Portfolio snapshoot">
         <div class="card-element">
           <h2 class="card-title">Multi-Post <br> Stories</h2>
@@ -89,7 +123,7 @@
         </div>
       </section>
 
-      <section class="cards card-tonic">
+      <section class="cards card-tonic cct2">
         <img class="portfolio-img" src="images/tonic-portfolio-two.svg" alt="Portfolio snapshoot">
         <div class="card-element">
           <h2 class="card-title">Tonic</h2>
@@ -111,7 +145,7 @@
         </div>
       </section>
 
-      <section class="cards card-multi">
+      <section class="cards card-multi ccd2">
         <img class="portfolio-img" src="images/multi-portfolio-two.svg" alt="Portfolio snapshoot">
         <div class="card-element">
           <h2 class="card-title">Multi-Post <br> Stories</h2>
@@ -201,6 +235,36 @@
           </ul>
         </section>
       </section>
+<<<<<<< Updated upstream
+=======
+      <section class="contact-wrap">
+        <h2 class="contact-title">Contact me</h2>
+
+        <p class="contact-para">
+          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+        </p>
+
+        <form action="https://formspree.io/f/xayvqdqk" method="POST">
+          <ul class="form-content">
+            <li>
+              <label for="name"></label>
+              <input class="form-name" id="name" type="text" maxlength="30" required name="fullName" placeholder="Full name" />
+            </li>
+            <li>
+              <label for="mail"></label>
+              <input class="form-email" id="mail" type="email" required name="userEmail" placeholder="Enter your E-Mail address" />
+            </li>
+            <li>
+              <label for="message"></label>
+              <textarea class="form-list-textarea" id="message" name="userMessage" required placeholder="Write your message here" maxlength="500"></textarea>
+            </li>
+            <li class="button-wrap">
+              <button class="contact-button" type="submit">Get In Touch</button>
+            </li>
+          </ul>
+        </form>
+      </section>
+>>>>>>> Stashed changes
     </section>
   </main>
 </body>

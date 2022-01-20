@@ -1,0 +1,159 @@
+          html {
+            box-sizing: border-box;
+            background: #E5E5E5;
+          }
+          
+          *,
+          *:before,
+          *:after {
+            box-sizing: inherit;
+          }
+          
+          * {
+            font-family: Poppins, sans-serif;
+            padding: 0;
+            margin: 0;
+          }
+          
+          @media screen and (min-width: 992px) {
+            body {
+              background-color: #e5e5e5;
+              font-family: Poppins, sans-serif;
+              padding: 0;
+              margin: 0;
+            }
+            .main-menu {
+              /*width:100% */
+              /* display: flex;
+          height: auto;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding-top: 25px;
+          align-items: center;
+          text-align: center;
+          background-color: #fff;
+          flex-grow: 1; */
+              display: flex;
+              position: fixed;
+              justify-content: space-between;
+              width: 100%;
+              flex: 1 1 auto;
+              text-align: center;
+              padding: 1em;
+              background-color: #fff;
+            }
+            .desktop-nav {
+              display: flex;
+              justify-content: space-between;
+              gap: 32px;
+              color: #344563;
+              font-size: 15px;
+              font-weight: 500;
+              line-height: 20px;
+              text-align: center;
+              transition: color 2s;
+            }
+            .desktop-nav:last-child {
+              padding-right: 150px;
+            }
+            .logo {
+              font-style: normal;
+              font-weight: bold;
+              font-size: 25px;
+              line-height: 20px;
+              color: #6070ff;
+              margin-left: 150px;
+            }
+            a {
+              text-decoration: none;
+              list-style: none;
+              color: #344563;
+            }
+            .menu {
+              display: none;
+            }
+            .home-page {
+              display: flex;
+              width: 100%;
+              flex-direction: column;
+              background-image: url(../images/header_background.svg);
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              background-color: white;
+              height: 916px;
+              padding: 300px 200px 50px 250px;
+              margin-bottom: 120px;
+              border-bottom-left-radius: 100px;
+            }
+            .primary-message {
+              width: 100%;
+              color: #091e42;
+              font-weight: bold;
+              font-size: 48px;
+              line-height: 60px;
+              align-items: center;
+              letter-spacing: 0.37px;
+            }
+            .primary-message-description {
+              /* width: 100%;
+    height: 98px;
+    left: 0px;
+    top: 134px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 12px;
+    color: #344563; */
+              width: 100%;
+              height: auto;
+              left: 0px;
+              top: 134px;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 28px;
+              color: #344563;
+              margin: 12px 0px;
+            }
+            .social-media-connect {
+              width: 100%;
+              height: 24px;
+              left: 0px;
+              top: 0px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #7F8CFF;
+              margin-top: 12px;
+            }
+            .icon-container {
+              list-style-type: none;
+              display: flex;
+              gap: 10px;
+              padding: 10px;
+              margin-top: 14px;
+              margin-left: -10px;
+            }
+            .cards {
+              display: none;
+            }
+            .grid-container {
+              display: grid;
+              align-items: center;
+              justify-content: center;
+            }
+            .desktop-work1 {
+              width: 1156px;
+              height: 496px;
+              border-radius: 24px;
+              background: #FFFFFF;
+              border: 1px solid #DFE1E6;
+            }
+            .cct1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
