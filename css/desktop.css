@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
   }
-  
+
   a {
     text-decoration: none;
     text-decoration-line: none;
@@ -222,7 +222,6 @@
     width: 140px;
     height: 50px;
     text-align: center;
-    padding: 100x;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -302,7 +301,7 @@
     padding: 10px 10px 10px 10px;
   }
 
-  .work-description>p {
+  .work-description > p {
     font-size: 18px;
     color: #344563;
     font-weight: lighter;
@@ -418,6 +417,10 @@
     padding-left: 10px;
     color: #000;
   }
+  
+   textarea {
+    resize: none;
+  }
 
   li textarea {
     background: #fff;
@@ -516,7 +519,7 @@
     width: 75%;
   }
 
-  .project-tags>div {
+  .project-tags > div {
     margin-left: 10px;
   }
 
@@ -524,7 +527,7 @@
     width: 25%;
   }
 
-  .tags>ul {
+  .tags > ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -564,9 +567,5 @@
     font-family: 'Poppins', sans-serif;
     transition-duration: 0.4s;
     margin: 0 5px 0 5px;
-  }
-
-  textarea {
-    resize: none;
   }
 }
