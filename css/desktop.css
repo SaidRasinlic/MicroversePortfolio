@@ -100,7 +100,10 @@
     margin: 100px 100px 150px 130px;
   }
   #work-1,
-  #work-3 {
+  #work-3,
+  #work-1a,
+  #work-1b,
+  #work-1c {
     background-color: white;
     display: flex;
     height: 450px;
