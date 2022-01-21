@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolio/desktop-version/index.html)
+[Live Demo Link](https://raw.githack.com/SaidRasinlic/MicroversePortfolio/main/index.html)
 
 
 ## Getting Started
