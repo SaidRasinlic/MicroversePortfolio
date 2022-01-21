@@ -1,9 +1,9 @@
 @media screen and (min-width: 992px) {
-  body {
-    background-color: #e5e5e5;
-    font-family: Poppins, sans-serif;
-    padding: 0;
-    margin: 0;
+body {
+  background-color: #e5e5e5;
+  font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
 }
   
 a {
@@ -31,15 +31,15 @@ a {
     justify-content: space-between;
 }
   
-  .all-item a {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 20px;
-    color: #6070ff;
-    margin-left: 150px;
-    float: right;
-  }
+.all-item a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
+  color: #6070ff;
+  margin-left: 150px;
+  float: right;
+}
   
   .desk-item {
     display: flex;
