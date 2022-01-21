@@ -288,7 +288,7 @@
     display: flex;
     flex-direction: row;
   }
-  
+
   .outer-item {
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@
     font-family: Popins, sans-serif;
     line-height: 28px;
   }
-  
+
   .outer-item li p {
     color: #253858;
     font-weight: 500;
@@ -418,7 +418,7 @@
     color: #000;
   }
   
-   textarea {
+  textarea {
     resize: none;
   }
 
@@ -478,7 +478,7 @@
     border-radius: 10px;
   }
 
-  .work-image>img {
+  .work-image > img {
     width: 100%;
   }
 
