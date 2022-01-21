@@ -268,14 +268,6 @@ li a {
 
 .about-myself {
   background-color: #fff;
-  width: 375px;
-  height: 1263px;
-  border-top-right-radius: 70px;
-  margin-top: 88px;
-}
-
-.about-myself {
-  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
