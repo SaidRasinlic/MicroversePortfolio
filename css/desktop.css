@@ -9,15 +9,14 @@
   a {
     text-decoration: none;
     text-decoration-line: none;
-}
+  }
 
   .flex-item1,
-    .shape,
-    .item,
-    .flex-item2,
-    .mobile-item,
-    .mobile
-  {
+  .shape,
+  .item,
+  .flex-item2,
+  .mobile-item,
+  .mobile {
     display: none;
   }
 
