@@ -448,7 +448,7 @@ ul.works-flex-item.titles-container {
   border-radius: 10px;
 }
 
-.work-image>img {
+.work-image > img {
   width: 100%;
 }
 
@@ -480,7 +480,7 @@ ul.works-flex-item.titles-container {
   font-size: 25px;
 }
 
-.work-description>p {
+.work-description > p {
   font-size: 18px;
   color: #344563;
   font-weight: lighter;
@@ -488,11 +488,11 @@ ul.works-flex-item.titles-container {
   line-height: 28px;
 }
 
-.project-tags>div {
+.project-tags > div {
   margin-left: 10px;
 }
 
-.tags>ul {
+.tags > ul {
   display: flex;
   flex-direction: row;
   list-style: none;
