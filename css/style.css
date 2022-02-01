@@ -297,6 +297,9 @@ button {
 }
 
 .about-myself button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   border: 1px solid #3d4ee4;
   width: 170px;
@@ -310,6 +313,8 @@ button {
   color: #396df2;
   background-color: white;
   margin-bottom: 20px;
+  margin-left: -5px;
+  margin-top: 10px;
 }
 
 #submit-btn-edit {
@@ -448,7 +453,7 @@ ul.works-flex-item.titles-container {
   border-radius: 10px;
 }
 
-.work-image > img {
+.work-image>img {
   width: 100%;
 }
 
@@ -480,7 +485,7 @@ ul.works-flex-item.titles-container {
   font-size: 25px;
 }
 
-.work-description > p {
+.work-description>p {
   font-size: 18px;
   color: #344563;
   font-weight: lighter;
@@ -488,11 +493,11 @@ ul.works-flex-item.titles-container {
   line-height: 28px;
 }
 
-.project-tags > div {
+.project-tags>div {
   margin-left: 10px;
 }
 
-.tags > ul {
+.tags>ul {
   display: flex;
   flex-direction: row;
   list-style: none;

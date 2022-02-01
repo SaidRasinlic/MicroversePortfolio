@@ -5,12 +5,10 @@
     padding: 0;
     margin: 0;
   }
-
   a {
     text-decoration: none;
     text-decoration-line: none;
   }
-
   .flex-item1,
   .shape,
   .item,
@@ -19,7 +17,6 @@
   .mobile {
     display: none;
   }
-
   .desktop {
     position: fixed;
     width: 100%;
@@ -30,7 +27,6 @@
     background-color: white;
     justify-content: space-between;
   }
-
   .all-item a {
     font-style: normal;
     font-weight: bold;
@@ -40,13 +36,11 @@
     margin-left: 150px;
     float: right;
   }
-
   .desk-item {
     display: flex;
     flex-direction: row;
     margin-right: 100px;
   }
-
   .desk-item a {
     padding-right: 20px;
     color: #344563;
@@ -56,12 +50,10 @@
     text-align: center;
     transition: color 2s;
   }
-
   .social-icon a {
     font-size: 2em;
     color: #344563;
   }
-
   .works-flex-pop span a {
     text-decoration: none;
     font-weight: bolder;
@@ -69,7 +61,6 @@
     font-size: 20px;
     padding-right: 20px;
   }
-
   .headline-section {
     background-image: url(../images/header_background.svg);
     background-repeat: no-repeat;
@@ -82,21 +73,18 @@
     margin-bottom: 120px;
     border-bottom-left-radius: 100px;
   }
-
   .headline-section h1 {
     color: #091e42;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
   }
-
   .headline-section p {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
   }
-
   .social-icon {
     list-style-type: none;
     display: flex;
@@ -104,7 +92,6 @@
     padding: 1px;
     margin: 1px;
   }
-
   .main-container {
     display: grid;
     grid-template-columns: auto;
@@ -112,7 +99,6 @@
     align-content: space-around;
     margin: 100px 100px 150px 130px;
   }
-
   #work-1,
   #work-3,
   #work-1a,
@@ -126,7 +112,6 @@
     border: 1px solid #e5e5e5;
     border-radius: 30px;
   }
-
   #work-2,
   #work-4 {
     background-color: white;
@@ -137,24 +122,20 @@
     border: 1px solid #e5e5e5;
     border-radius: 30px;
   }
-
   .desk-item1 {
     padding-right: 30px;
   }
-
   .desk-col {
     display: flex;
     flex-direction: column;
     padding: 1px 10px 100px 20px;
   }
-
   .desk-col h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
   }
-
   ul {
     list-style-type: none;
     display: flex;
@@ -163,13 +144,11 @@
     margin-left: -40px;
     margin-top: -20px;
   }
-
   .inner-element li a {
     color: #6b778c;
     font-size: 18px;
     line-height: 24px;
   }
-
   .canopy {
     font-weight: 600;
     font-weight: bold;
@@ -177,11 +156,9 @@
     line-height: 24px;
     color: #344563;
   }
-
   .flex-item4 {
     padding-bottom: 25px;
   }
-
   .flex-item4 p {
     font-style: normal;
     font-weight: normal;
@@ -189,23 +166,19 @@
     line-height: 24px;
     color: #344563;
   }
-
   .flex-item3 {
     display: flex;
     align-content: space-around;
     margin-left: 40px;
   }
-
   .flex-item5 {
     display: flex;
     margin-left: 50px;
   }
-
   .inner-flex-item {
     display: flex;
     column-gap: 10px;
   }
-
   .inner-flex-item li a {
     font-size: 12px;
     font-weight: 500;
@@ -215,7 +188,6 @@
     background: #ebebff;
     padding: 5px 10px;
   }
-
   button {
     border: 1px solid #dfe1e6;
     border-radius: 8px;
@@ -230,36 +202,41 @@
     background-color: white;
     margin-top: 30px;
   }
-
   #submit-btn-edit {
     margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
   .resume {
-    border: 1px solid #dfe1e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
-    width: 180px;
+    border: 1px solid #3d4ee4;
+    width: 170px;
     height: 50px;
     text-align: center;
-    font-style: normal;
+    padding: 10px;
     font-weight: 500;
     font-size: 17px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: white;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    margin-top: 10px;
   }
-
   button:hover {
     background: #8f9afc;
     color: white;
   }
-
   button:active {
     background: #0416b6;
     color: white;
     box-shadow: 0 8px 16px;
   }
-
   .about-myself {
     background-color: white;
     display: flex;
@@ -268,14 +245,12 @@
     border-top-right-radius: 100px;
     height: 680px;
   }
-
   .desk-about {
     display: flex;
     flex-direction: column;
     width: 400px;
     padding: 80px 10px 100px 120px;
   }
-
   .expertise {
     display: flex;
     flex-direction: column;
@@ -283,12 +258,10 @@
     margin-left: 80px;
     width: 500px;
   }
-
   .desk-programming {
     display: flex;
     flex-direction: row;
   }
-
   .outer-item {
     display: flex;
     flex-direction: column;
@@ -300,15 +273,13 @@
     margin-top: 2px;
     padding: 10px 10px 10px 10px;
   }
-
-  .work-description > p {
+  .work-description>p {
     font-size: 18px;
     color: #344563;
     font-weight: lighter;
     font-family: Popins, sans-serif;
     line-height: 28px;
   }
-
   .outer-item li p {
     color: #253858;
     font-weight: 500;
@@ -316,7 +287,6 @@
     line-height: 20px;
     margin-top: -10px;
   }
-
   .desk-about h1 {
     color: #091e42;
     font-style: normal;
@@ -324,37 +294,31 @@
     font-size: 40px;
     line-height: 52px;
   }
-
   .desk-about li p {
     color: #344563;
     font-size: 16px;
     line-height: 24px;
   }
-
   p.connect {
     color: #3d4ee4;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
   }
-
   .contact-icon {
     margin-left: 1px;
     padding: 10px;
   }
-
   .contact-icon li a {
     font-size: 1.5em;
     color: #505f79;
   }
-
   .language {
     display: flex;
     text-align: center;
     margin-top: 120px;
     justify-content: space-between;
   }
-
   .skills {
     display: flex;
     justify-content: space-between;
@@ -362,7 +326,6 @@
     padding-top: 20px;
     border-bottom: 1px solid #acb7c3;
   }
-
   .framework {
     display: flex;
     text-align: center;
@@ -370,8 +333,10 @@
     border-bottom: 1px solid #acb7c3;
     padding-top: 20px;
   }
-
-  .contact {
+  .contact-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #6070ff;
     background-image: url(../images/header_background.svg);
     background-size: 100%;
@@ -379,15 +344,11 @@
     margin-top: -100px;
     padding: 150px 400px 150px 400px;
   }
-
   .inner-div {
-    padding-right: 30px;
-    padding-left: 20px;
     width: 550px;
     height: 100px;
     margin-bottom: 100px;
   }
-
   .inner-div h2 {
     color: white;
     text-align: center;
@@ -395,18 +356,15 @@
     font-weight: 400;
     padding-bottom: 0;
   }
-
   #inner-div {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #ebebff;
   }
-
   .form {
     padding: 20px;
   }
-
   li input {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -417,11 +375,9 @@
     padding-left: 10px;
     color: #000;
   }
-
   textarea {
     resize: none;
   }
-
   li textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -434,27 +390,22 @@
     line-height: 24px;
     padding-top: 10px;
   }
-
   .inner-list {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 100%;
   }
-
   .inner-list .flex-item6 button {
     margin-left: 150px;
     margin-top: 1px;
   }
-
   .all-item:hover {
     transform: scale(1, 0.8);
   }
-
   .desk-item a:hover {
     color: #3d4ee4;
   }
-
   #portfolioPopup {
     position: fixed;
     z-index: 1;
@@ -466,22 +417,18 @@
     background-color: rgb(76, 78, 82, 0.7);
     display: none;
   }
-
   ul.works-flex-item.titles-container {
     margin: 10px;
   }
-
   .works-flex {
     padding: 20px;
     background: #fff;
     margin: 50px 100px;
     border-radius: 10px;
   }
-
-  .work-image > img {
+  .work-image>img {
     width: 100%;
   }
-
   .titles-item {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -490,7 +437,6 @@
     list-style-image: url(../images/Counter.png);
     padding-right: 25px;
   }
-
   .list-main {
     padding-right: 25px;
     list-style-type: none;
@@ -499,7 +445,6 @@
     color: #344563;
     line-height: 24px;
   }
-
   .works-flex-pop {
     display: flex;
     flex-direction: row;
@@ -509,25 +454,20 @@
     margin-left: 10px;
     font-size: 25px;
   }
-
   .project-tags {
     display: flex;
     flex-direction: row;
   }
-
   .work-description {
     width: 75%;
   }
-
-  .project-tags > div {
+  .project-tags>div {
     margin-left: 10px;
   }
-
   .tags {
     width: 25%;
   }
-
-  .tags > ul {
+  .tags>ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -535,7 +475,6 @@
     margin-left: 5px;
     margin-top: 15px;
   }
-
   .lang-group,
   .lang-group-2 {
     background: #ebebff;
@@ -546,17 +485,17 @@
     margin-top: 5px;
     line-height: 16px;
   }
-
   .btn-tags {
     border-top: 1px solid rgb(236, 234, 234);
     padding-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
-
   a.btn-see-project {
     text-decoration: none;
     color: #4053fc;
   }
-
   .btn-see-project {
     border: 1px solid #396df2;
     padding: 7px;
