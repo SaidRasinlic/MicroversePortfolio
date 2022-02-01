@@ -2,7 +2,8 @@
 
 > This is my mobile version of "Portfolio" project based on the Microverse student's template.
 
-![screenshot](./images/portfolio.png)
+![screenshot](./images/mobile-version.png) <hr/>
+![screenshot](./images/portfolio-desktop.png)
 
 Additional description about the project and its features.
 
@@ -15,7 +16,6 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://saidrasinlic.github.io/MicroversePortfolio/)
-
 
 ## Getting Started
 
