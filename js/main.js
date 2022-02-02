@@ -52,7 +52,7 @@ const projectDetail = [{
   imageMobilePopup: './images/tonic-portfolio-two.svg',
   seeLive: 'https://saidrasinlic.github.io/MicroversePortfolio/',
   seeSource: 'https://github.com/SaidRasinlic/MicroversePortfolio',
- },,
+ },
   {
   title: 'Uber Navigation',
   exprience: ['UBER', 'Lead Developer', '2018'],
