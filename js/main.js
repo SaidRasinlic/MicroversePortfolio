@@ -1,10 +1,10 @@
-const menuItem = document.querySelector(".mobile-item");
-const closeMobileItems = document.querySelectorAll(".closeMenu");
+const menuItem = document.querySelector('.mobile-item');
+const closeMobileItems = document.querySelectorAll('.closeMenu');
 const displayMobileMenu = () => {
- menuItem.style.display = "block";
+  menuItem.style.display = 'block';
 };
 const closeMobileMenu = () => {
- menuItem.style.display = "none";
+  menuItem.style.display = 'none';
 };
 document
  .querySelector(".openMenu")
@@ -144,7 +144,7 @@ document
   )
  );
 
-const closeModal = document.querySelector("#portfolioPopup");
+const closeModal = document.querySelector("#portfolioPopup"); // eslint-disable-line no-unused-vars
 const closePopupModal = () => {
  closeModal.style.display = "none";
 };
