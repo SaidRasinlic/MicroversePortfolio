@@ -38,7 +38,7 @@ const projectDetail = [{
   imageMobilePopup: './images/multi-portfolio-two.svg',
   seeLive: 'https://saidrasinlic.github.io/MicroversePortfolio/',
   seeSource: 'https://github.com/SaidRasinlic/MicroversePortfolio',
-}, 
+},
 {
   title: 'Facebook 360',
   exprience: ['FACEBOOK', 'Back End Dev', '2015'],
@@ -74,24 +74,24 @@ const projectDetail = [{
 
 const popupModal = document.querySelector('#portfolioPopup');
 const displayPopupModal = (i) => {
-let tech = '';
-let techPop = '';
-let experienceList = '';
+  let tech = '';
+  let techPop = '';
+  let experienceList = '';
 
-for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
+  for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
     tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
-}
+  }
 
 for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
     techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
   }
 
  for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
-  experienceList +=
+    experienceList +=
    k === 0 ?
-   `<li class="list-main">${projectDetail[i].exprience[k]}</li>` :
-   `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
- }
+      `<li class="list-main">${projectDetail[i].exprience[k]}</li>` :
+      `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
+  }
  document.querySelector('#portfolioPopup').innerHTML = `
   <div class="works-flex">
       <div>
