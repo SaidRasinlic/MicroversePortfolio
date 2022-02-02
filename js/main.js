@@ -82,17 +82,17 @@ const displayPopupModal = (i) => {
     tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
   }
 
-for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
+  for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
     techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
   }
 
- for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
-    experienceList +=
-   k === 0 ?
-      `<li class="list-main">${projectDetail[i].exprience[k]}</li>` :
-      `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
+  for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
+    experienceList 
+      += k === 0 
+      ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>`
+      : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
   }
- document.querySelector('#portfolioPopup').innerHTML = `
+  document.querySelector('#portfolioPopup').innerHTML = `
   <div class="works-flex">
       <div>
         <div class="works-flex-pop">
@@ -132,15 +132,11 @@ for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
       </div>
       </div>
   `;
- popupModal.style.display = "block";
+  popupModal.style.display = 'block';
 };
 document
- .querySelectorAll('.see-project')
- .forEach((row) =>
-  row.addEventListener('click', () =>
-   displayPopupModal(row.getAttribute('data-index'))
-  )
- );
+  .querySelectorAll('.see-project')
+  .forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))));
 
 const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => { // eslint-disable-line no-unused-vars
