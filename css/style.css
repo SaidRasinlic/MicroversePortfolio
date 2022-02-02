@@ -297,6 +297,9 @@ button {
 }
 
 .about-myself button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   border: 1px solid #3d4ee4;
   width: 170px;
@@ -310,6 +313,8 @@ button {
   color: #396df2;
   background-color: white;
   margin-bottom: 20px;
+  margin-left: -5px;
+  margin-top: 10px;
 }
 
 #submit-btn-edit {
@@ -453,7 +458,7 @@ ul.works-flex-item.titles-container {
 }
 
 .titles-item {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: lightslategray;
   font-weight: 500;
@@ -531,7 +536,7 @@ a.btn-see-project {
   font-size: 16px;
   font-weight: 300;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition-duration: 0.4s;
   margin: 0 5px 0 5px;
 }

@@ -233,20 +233,30 @@
 
   #submit-btn-edit {
     margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .resume {
-    border: 1px solid #dfe1e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
-    width: 180px;
+    border: 1px solid #3d4ee4;
+    width: 170px;
     height: 50px;
     text-align: center;
-    font-style: normal;
+    padding: 10px;
     font-weight: 500;
     font-size: 17px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: white;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    margin-top: 10px;
   }
 
   button:hover {
@@ -371,7 +381,10 @@
     padding-top: 20px;
   }
 
-  .contact {
+  .contact-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #6070ff;
     background-image: url(../images/header_background.svg);
     background-size: 100%;
@@ -381,8 +394,6 @@
   }
 
   .inner-div {
-    padding-right: 30px;
-    padding-left: 20px;
     width: 550px;
     height: 100px;
     margin-bottom: 100px;
@@ -550,6 +561,9 @@
   .btn-tags {
     border-top: 1px solid rgb(236, 234, 234);
     padding-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
 
   a.btn-see-project {
