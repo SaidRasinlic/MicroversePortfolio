@@ -7,11 +7,10 @@ const closeMobileMenu = () => {
   menuItem.style.display = 'none';
 };
 document
-  .querySelector(".openMenu")
+  .querySelector('.openMenu')
   .addEventListener('click', displayMobileMenu);
 closeMobileItems.forEach((element) =>
-  element.addEventListener("click", closeMobileMenu)
-);
+  element.addEventListener('click', closeMobileMenu));
 
 const projectDetail = [{
   title: "Tonic",
@@ -144,7 +143,7 @@ document
   )
  );
 
-const closeModal = document.querySelector('#portfolioPopup'); // eslint-disable-line no-unused-vars
-const closePopupModal = () => {
+const closeModal = document.querySelector('#portfolioPopup');
+const closePopupModal = () => { // eslint-disable-line no-unused-vars
  closeModal.style.display = 'none';
 };
