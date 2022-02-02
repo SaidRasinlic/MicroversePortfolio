@@ -89,8 +89,8 @@ const displayPopupModal = (i) => {
   for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
     experienceList 
       += k === 0 
-      ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>`
-      : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
+        ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>`
+        : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
   }
   document.querySelector('#portfolioPopup').innerHTML = `
   <div class="works-flex">
@@ -140,5 +140,5 @@ document
 
 const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => { // eslint-disable-line no-unused-vars
- closeModal.style.display = 'none';
+  closeModal.style.display = 'none';
 };
