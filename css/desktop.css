@@ -273,7 +273,7 @@
     margin-top: 2px;
     padding: 10px 10px 10px 10px;
   }
-  .work-description>p {
+  .work-description > p {
     font-size: 18px;
     color: #344563;
     font-weight: lighter;
@@ -426,7 +426,7 @@
     margin: 50px 100px;
     border-radius: 10px;
   }
-  .work-image>img {
+  .work-image > img {
     width: 100%;
   }
   .titles-item {
@@ -461,13 +461,13 @@
   .work-description {
     width: 75%;
   }
-  .project-tags>div {
+  .project-tags > div {
     margin-left: 10px;
   }
   .tags {
     width: 25%;
   }
-  .tags>ul {
+  .tags > ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

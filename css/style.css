@@ -453,12 +453,12 @@ ul.works-flex-item.titles-container {
   border-radius: 10px;
 }
 
-.work-image>img {
+.work-image > img {
   width: 100%;
 }
 
 .titles-item {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: lightslategray;
   font-weight: 500;
@@ -485,7 +485,7 @@ ul.works-flex-item.titles-container {
   font-size: 25px;
 }
 
-.work-description>p {
+.work-description > p {
   font-size: 18px;
   color: #344563;
   font-weight: lighter;
@@ -493,11 +493,11 @@ ul.works-flex-item.titles-container {
   line-height: 28px;
 }
 
-.project-tags>div {
+.project-tags > div {
   margin-left: 10px;
 }
 
-.tags>ul {
+.tags > ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -536,7 +536,7 @@ a.btn-see-project {
   font-size: 16px;
   font-weight: 300;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition-duration: 0.4s;
   margin: 0 5px 0 5px;
 }
