@@ -200,7 +200,7 @@
     display: flex;
     margin-left: 50px;
   }
-  
+
   .inner-flex-item {
     display: flex;
     column-gap: 10px;
@@ -537,7 +537,7 @@
   .tags {
     width: 25%;
   }
-  
+
   .tags > ul {
     display: flex;
     flex-direction: row;
