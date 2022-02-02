@@ -87,8 +87,8 @@ const displayPopupModal = (i) => {
   }
 
   for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
-    experienceList 
-      += k === 0 
+    experienceList
+      += k === 0
         ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>`
         : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
   }
