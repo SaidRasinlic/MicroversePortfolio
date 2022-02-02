@@ -38,8 +38,8 @@ const projectDetail = [{
   imageMobilePopup: './images/multi-portfolio-two.svg',
   seeLive: 'https://saidrasinlic.github.io/MicroversePortfolio/',
   seeSource: 'https://github.com/SaidRasinlic/MicroversePortfolio',
- },
- {
+}, 
+{
   title: 'Facebook 360',
   exprience: ['FACEBOOK', 'Back End Dev', '2015'],
   desription: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
@@ -52,8 +52,8 @@ const projectDetail = [{
   imageMobilePopup: './images/tonic-portfolio-two.svg',
   seeLive: 'https://saidrasinlic.github.io/MicroversePortfolio/',
   seeSource: 'https://github.com/SaidRasinlic/MicroversePortfolio',
- },
-  {
+},
+{
   title: 'Uber Navigation',
   exprience: ['UBER', 'Lead Developer', '2018'],
   desription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -66,7 +66,7 @@ const projectDetail = [{
   imageMobilePopup: './images/multi-portfolio-two.svg',
   seeLive: 'https://saidrasinlic.github.io/MicroversePortfolio/',
   seeSource: 'https://github.com/SaidRasinlic/MicroversePortfolio',
- },
+},
 ];
 
 /* Project detail population when the pages loads */
@@ -74,17 +74,17 @@ const projectDetail = [{
 
 const popupModal = document.querySelector('#portfolioPopup');
 const displayPopupModal = (i) => {
- let tech = '';
- let techPop = '';
- let experienceList = '';
+let tech = '';
+let techPop = '';
+let experienceList = '';
 
- for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
-  tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
- }
+for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
+    tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
+}
 
- for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
-  techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
- }
+for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
+    techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
+  }
 
  for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
   experienceList +=
