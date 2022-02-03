@@ -1,15 +1,18 @@
-function clearStorage () {
+function clearStorage() {
   localStorage.clear();
 }
 
 window.onload = function () {
   document.getElementById('clear-butt').onclick = clearStorage();
-}
+};
 
+let name = '';
+let email = '';
+let text = '';
 function updateStorage() {
-  var name = localStorage.getItem('name');
-  var email = localStorage.getItem('email');
-  var text = localStorage.getItem('text');
+  name = localStorage.getItem('name');
+  email = localStorage.getItem('email');
+  text = localStorage.getItem('text');
 
   document.getElementById('name').value = name;
   document.getElementById('email').value = email;
