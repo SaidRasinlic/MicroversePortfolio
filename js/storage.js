@@ -1,7 +1,7 @@
 function updateStorage() {
-var name = localStorage.getItem('name');
-var email = localStorage.getItem('email');
-var text = localStorage.getItem('text');
+ var name = localStorage.getItem('name');
+ var email = localStorage.getItem('email');
+ var text = localStorage.getItem('text');
 
   document.getElementById('name').value = name;
   document.getElementById('email').value = email;
