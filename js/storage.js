@@ -33,6 +33,6 @@ text.onchange = populateStorage;
 
 if (!localStorage.getItem('name')) {
   populateStorage();
- } else {
- updateStorage();
+} else {
+  updateStorage();
 }
