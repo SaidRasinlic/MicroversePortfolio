@@ -1,9 +1,3 @@
-if (!localStorage.getItem('name')) {
- populateStorage();
-} else {
- updateStorage();
-}
-
 window.onload = function() { //ensures the page is loaded before functions are executed.
  document.getElementById("clear-butt").onclick = clearStorage
 }
@@ -21,7 +15,6 @@ function updateStorage() {
  document.getElementById('name').value = name;
  document.getElementById('email').value = email;
  document.getElementById('text').value = text;
-
 }
 
 function populateStorage() {
@@ -31,7 +24,11 @@ function populateStorage() {
 
  updateStorage();
 }
-
 name.onchange = populateStorage;
 email.onchange = populateStorage;
 text.onchange = populateStorage;
+if (!localStorage.getItem('name')) {
+  populateStorage();
+} else {
+ updateStorage();
+}
