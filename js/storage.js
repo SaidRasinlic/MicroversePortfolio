@@ -1,11 +1,3 @@
-function clearStorage() {
-  localStorage.clear();
-}
-
-window.onload = function () {
-  document.getElementById('clear-butt').onclick = clearStorage();
-};
-
 function updateStorage() {
 var name = localStorage.getItem('name');
 var email = localStorage.getItem('email');
