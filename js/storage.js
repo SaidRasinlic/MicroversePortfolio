@@ -1,9 +1,9 @@
 function updateStorage() {
- var name = localStorage.getItem('name');
+ var fname = localStorage.getItem('name');
  var email = localStorage.getItem('email');
  var text = localStorage.getItem('text');
 
-  document.getElementById('name').value = name;
+  document.getElementById('name').value = fname;
   document.getElementById('email').value = email;
   document.getElementById('text').value = text;
 }
@@ -16,7 +16,7 @@ function populateStorage() {
   updateStorage();
 }
 
-name.onchange = populateStorage;
+fname.onchange = populateStorage;
 email.onchange = populateStorage;
 text.onchange = populateStorage;
 
