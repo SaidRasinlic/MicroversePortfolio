@@ -78,7 +78,7 @@ const displayPopupModal = (i) => {
   let techPop = '';
   let experienceList = '';
 
-  for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
+  for (let i = 0; j < projectDetail[i].technologies.length; i += 1) {
     tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
   }
 
