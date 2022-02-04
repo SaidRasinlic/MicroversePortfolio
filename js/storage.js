@@ -2,7 +2,7 @@ const getName = document.querySelector('#name');
 const getEmail = document.querySelector('#email');
 const getText = document.querySelector('#text');
 
-getName.addEventListener('change', () = > {localStorage.setItem('name', document.getElementById('name').value);});
+getName.addEventListener('change', (e) = > {localStorage.setItem('name', document.getElementById('name').value);});
 
 getEmail.addEventListener('change', function () { localStorage.setItem('email', document.getElementById('email').value);});
 
