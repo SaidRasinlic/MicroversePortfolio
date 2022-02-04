@@ -1,27 +1,20 @@
-function updateStorage() {
-  var fname = localStorage.getItem('name');
-  var email = localStorage.getItem('email');
-  var text = localStorage.getItem('text');
+let getName = document.querySelector('#name');
+let getEmail = document.querySelector('#email');
+let getText = document.querySelector('#text');
 
-  document.getElementById('name').value = fname;
-  document.getElementById('email').value = email;
-  document.getElementById('text').value = text;
-}
+getName.addEventListener('change', function() {
+ localStorage.setItem('name', document.getElementById('name').value);
+})
 
-function populateStorage() {
-  localStorage.setItem('name', document.getElementById('name').value);
-  localStorage.setItem('email', document.getElementById('email').value);
-  localStorage.setItem('text', document.getElementById('text').value);
+getEmail.addEventListener('change', function() { localStorage.setItem('email', document.getElementById('email').value);})
 
-  updateStorage();
-}
+getText.addEventListener('change', function() { localStorage.setItem('text', document.getElementById('text').value);})
 
-fname.onchange = populateStorage;
-email.onchange = populateStorage;
-text.onchange = populateStorage;
+let localName = localStorage.getItem('name');
+document.getElementById('name').value = localName;
 
-if (!localStorage.getItem('name')) {
-  populateStorage();
-} else {
-  updateStorage();
-}
+let localEmail = localStorage.getItem('email');
+document.getElementById('email').value = localEmail;
+
+let localText = localStorage.getItem('text');
+document.getElementById('text').value = localText;
