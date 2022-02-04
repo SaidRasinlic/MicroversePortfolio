@@ -2,11 +2,11 @@ const getName = document.querySelector('#name');
 const getEmail = document.querySelector('#email');
 const getText = document.querySelector('#text');
 
-getName.addEventListener('change', () => {localStorage.setItem('name', document.getElementById('name').value);});
+getName.addEventListener('change', () => { localStorage.setItem('name', document.getElementById('name').value); });
 
-getEmail.addEventListener('change', () => { localStorage.setItem('email', document.getElementById('email').value);});
+getEmail.addEventListener('change', () => { localStorage.setItem('email', document.getElementById('email').value); });
 
-getText.addEventListener('change', () => { localStorage.setItem('text', document.getElementById('text').value);});
+getText.addEventListener('change', () => { localStorage.setItem('text', document.getElementById('text').value); });
 
 const localName = localStorage.getItem('name');
 document.getElementById('name').value = localName;
