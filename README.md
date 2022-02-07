@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- gh repo clone SaidRasinlic/MicroversePortfolioRepetition
+- gh repo clone SaidRasinlic/MicroversePortfolio
 
 ## Authors
 
